@@ -1,5 +1,12 @@
-function App() {
-  return <h1>holi</h1>;
-}
+import React from "react";
+import LatestPosts from "./components/LatestPosts";
+
+const App = () => {
+  return (
+    <>
+      <LatestPosts />
+    </>
+  );
+};
 
 export default App;
